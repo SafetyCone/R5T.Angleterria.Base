@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Angleterria.Base.Construction", "R5T.Angleterria.Base.Construction\R5T.Angleterria.Base.Construction.csproj", "{90A0F126-23BF-42E0-94D0-544D73EF58A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Angleterria.Base.Construction", "R5T.Angleterria.Base.Construction\R5T.Angleterria.Base.Construction.csproj", "{90A0F126-23BF-42E0-94D0-544D73EF58A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Angleterria.Base", "R5T.Angleterria.Base\R5T.Angleterria.Base.csproj", "{094EF35B-963E-435C-B384-38445AD122D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Angleterria.Base", "R5T.Angleterria.Base\R5T.Angleterria.Base.csproj", "{094EF35B-963E-435C-B384-38445AD122D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{EEDAF5DF-C95C-4028-9BC9-3A7DA09D0F78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{02708D7C-9BEC-405D-88A7-4CB1D1B45511}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{90A0F126-23BF-42E0-94D0-544D73EF58A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +45,26 @@ Global
 		{094EF35B-963E-435C-B384-38445AD122D3}.Release|x64.Build.0 = Release|Any CPU
 		{094EF35B-963E-435C-B384-38445AD122D3}.Release|x86.ActiveCfg = Release|Any CPU
 		{094EF35B-963E-435C-B384-38445AD122D3}.Release|x86.Build.0 = Release|Any CPU
+		{02708D7C-9BEC-405D-88A7-4CB1D1B45511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02708D7C-9BEC-405D-88A7-4CB1D1B45511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02708D7C-9BEC-405D-88A7-4CB1D1B45511}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{02708D7C-9BEC-405D-88A7-4CB1D1B45511}.Debug|x64.Build.0 = Debug|Any CPU
+		{02708D7C-9BEC-405D-88A7-4CB1D1B45511}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{02708D7C-9BEC-405D-88A7-4CB1D1B45511}.Debug|x86.Build.0 = Debug|Any CPU
+		{02708D7C-9BEC-405D-88A7-4CB1D1B45511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02708D7C-9BEC-405D-88A7-4CB1D1B45511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02708D7C-9BEC-405D-88A7-4CB1D1B45511}.Release|x64.ActiveCfg = Release|Any CPU
+		{02708D7C-9BEC-405D-88A7-4CB1D1B45511}.Release|x64.Build.0 = Release|Any CPU
+		{02708D7C-9BEC-405D-88A7-4CB1D1B45511}.Release|x86.ActiveCfg = Release|Any CPU
+		{02708D7C-9BEC-405D-88A7-4CB1D1B45511}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02708D7C-9BEC-405D-88A7-4CB1D1B45511} = {EEDAF5DF-C95C-4028-9BC9-3A7DA09D0F78}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7165D42F-CB7E-4968-9308-218CBEDD51B3}
 	EndGlobalSection
 EndGlobal
